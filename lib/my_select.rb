@@ -1,3 +1,4 @@
 def my_select(nums)
-my_select
+nums.select do |n|
+  n.even?
 end
