@@ -1,4 +1,5 @@
 def my_select(nums)
-my_selection.select {|nums| num.even?}
+nums.select do |nums|
   nums.even?
+end
 end
